@@ -53,11 +53,10 @@ require_once "./header.php";
                     data: $("#login").serialize(),
                     type: 'post',
                     success: function(response) {
-                        alert(response);
                         if (response == 0)
                             alert("Enter Valid Login Details");
                         else
-                            var myWindow = window.open("http://internshalacarrental.epizy.com/index.php?email=" + response, "_self");
+                            window.open("http://internshalacarrental.epizy.com/index.php", "_self");
                     }
                 });
             }
