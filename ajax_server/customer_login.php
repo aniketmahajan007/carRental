@@ -13,7 +13,7 @@ $DB_CONN = new ConnectDB();
 $email = $_REQUEST["email"];
 $pass = $_REQUEST["password"];
 
-$sql = "SELECT * from login where email='$email' and password='$pass'";
+$sql = "SELECT * from login where email='$email' and password='$pass' and agency=0";
 $result = $DB_CONN->query($sql);
 
 //print_r($sql);

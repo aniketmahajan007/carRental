@@ -77,9 +77,9 @@ require_once "./header.php";
                         <h1>Agent Login</h1>
                         <div class="input-field">
                             <label for="email">Email</label>
-                            <input type="email" name="email" required="email" />
+                            <input type="email" name="email" placeholder="Enter email" required="email" />
                             <label for="password">Password</label>
-                            <input type="password" name="password" required />
+                            <input type="password" placeholder="Enter password" name="password" required />
                             <input type="button" id="loginBtn" value="Login" class="button" />
                         </div>
                     </form>
@@ -87,13 +87,13 @@ require_once "./header.php";
                         <h1>Agent Registration</h1>
                         <div class="input-field">
                             <label for="name">Name</label>
-                            <input type="text" name="name" id="name" required="name" />
+                            <input type="text" name="name" placeholder="Enter name" id="name" required="name" />
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required="email" />
+                            <input type="email" id="email" placeholder="Enter email" name="email" required="email" />
                             <label for="password">Password</label>
-                            <input type="password" id="pass" name="password" required />
+                            <input type="password" id="pass" placeholder="Enter password" name="password" required />
                             <label for="re-password">Confirm Password</label>
-                            <input type="password" id="re-pass" name="re-password" required />
+                            <input type="password" placeholder="Enter confirm password" id="re-pass" name="re-password" required />
                             <input type="button" id="signupBtn" value="Sign up" class="button" />
                         </div>
                     </form>
